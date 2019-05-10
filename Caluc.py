@@ -61,8 +61,13 @@ print(mylist[2]) # prints 3
 
 # prints out 1,2,3
 for x in mylist:
-    print(x - int(0))
     print(x)
 
 helloworld = "hello" + " " + "world"
 print(helloworld)
+
+
+tup1 = ('Robert', 'Carlos','1965','Terminator 1995', 'Actor','Florida');
+tup2 = (1,2,3,4,5,6,7);
+print(tup1[0])
+print(tup2[1:4])
